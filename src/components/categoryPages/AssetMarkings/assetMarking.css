@@ -1,0 +1,79 @@
+.assetMarkingContainer {
+  /* display: flex;
+  align-items: center;
+  justify-content: space-around; */
+
+  width: 90%;
+  margin-left: 5%;
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  justify-items: center;
+  align-items: center;
+  row-gap: 25px;
+}
+
+.assetMarketingBody {
+  overflow-x: hidden;
+}
+
+.assetMarketingTopContainer {
+  width: 80%;
+  margin-left: 10%;
+  height: 15vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+}
+.assetMarketingHeading {
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: #003459;
+}
+.assetMarketingBanner {
+  width: 80%;
+}
+.assetMarketingBanner img {
+  object-fit: contain;
+  width: 100%;
+}
+
+/* STYLING FOR MOBILE VIEW  */
+@media (max-width: 1000px) {
+.assetMarkingContainer{
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+
+@media (max-width: 800px) {
+.assetMarkingContainer{
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 600px) {
+  .assetMarketingTopContainer {
+    flex-direction: column;
+    width: 90%;
+    margin-left: 5%;
+  }
+
+  .assetMarketingBody .assetMarketingBanner {
+    width: 90%;
+    margin-left: 5%;
+  }
+
+  .assetMarketingBody .assetMarketingBanner img {
+    width: 100%;
+  }
+
+  .assetMarketingBody .assetMarketingHeading {
+    font-size: 2rem;
+  }
+  .assetMarkingContainer {
+    /* flex-direction: column; */
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,0 +1,15 @@
+.coupons{
+    height: 100%;
+}
+
+.couponHeading{
+ font-size: 1.2rem;   
+ font-weight: 500;
+}
+
+.couponItemWrapper{
+    width: 100%;
+    margin-top: 25px;
+    height: 90%;
+    overflow-y: auto;
+}

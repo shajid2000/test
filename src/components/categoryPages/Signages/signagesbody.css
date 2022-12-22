@@ -1,0 +1,66 @@
+.signagesBody {
+  overflow-x: hidden;
+}
+
+.signagesBody .signTopContainer {
+  width: 80%;
+  margin-left: 10%;
+  height: 15vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.signagesBody .signHeading {
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: #003459;
+}
+
+.signagesBody .signBanner {
+  width: 80%;
+}
+
+.signagesBody .signBanner img {
+  object-fit: contain;
+  width: 100%;
+}
+
+.signagesBody .shopByCategorySignages h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 30px;
+  margin-top: 100px;
+  margin-left: 10%;
+}
+
+/* STYLING FOR MOBILE VIEW  */
+
+@media (max-width: 600px) {
+  .signTopContainer {
+    flex-direction: column;
+    width: 90%;
+    margin-left: 5%;
+  }
+
+  .signagesBody .signBanner {
+    width: 90%;
+    margin-left: 5%;
+  }
+
+  .signagesBody .signBanner img {
+    width: 100%;
+  }
+
+  .signagesBody .signHeading {
+    font-size: 2rem;
+  }
+
+  .signagesBody .shopByCategorySignages h1 {
+    margin-left: auto;
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 1.8rem;
+  }
+}

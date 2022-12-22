@@ -1,0 +1,84 @@
+{
+  "name": "frontend",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.10.0",
+    "@emotion/styled": "^11.10.0",
+    "@fortawesome/fontawesome-svg-core": "^6.1.1",
+    "@fortawesome/free-solid-svg-icons": "^6.1.1",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "@material-ui/core": "^4.12.4",
+    "@material-ui/icons": "^4.11.3",
+    "@mui/icons-material": "^5.8.0",
+    "@mui/material": "^5.10.0",
+    "@nidi/html2canvas": "^1.0.0-rc.13",
+    "@progress/kendo-drawing": "^1.17.2",
+    "@progress/kendo-licensing": "^1.2.2",
+    "@progress/kendo-react-pdf": "^5.9.0",
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^13.0.0",
+    "@testing-library/user-event": "^13.2.1",
+    "axios": "^0.27.2",
+    "bootstrap": "^5.2.0",
+    "formik": "^2.2.9",
+    "html2canvas": "^1.4.1",
+    "jquery": "^3.6.1",
+    "jspdf": "^2.5.1",
+    "jwt-decode": "^3.1.2",
+    "razorpay": "^2.8.3",
+    "react": "^18.1.0",
+    "react-bootstrap": "^2.5.0",
+    "react-color": "^2.19.3",
+    "react-contenteditable": "^3.3.6",
+    "react-countup": "^6.3.0",
+    "react-dom": "^18.1.0",
+    "react-draggable": "^4.4.5",
+    "react-elastic-carousel": "^0.11.5",
+    "react-icons": "^4.6.0",
+    "react-outside-click-handler": "^1.3.0",
+    "react-paginate": "^8.1.3",
+    "react-redux": "^8.0.2",
+    "react-rnd": "^10.3.7",
+    "react-router-dom": "6",
+    "react-scripts": "^5.0.1",
+    "react-textarea-autosize": "^8.3.4",
+    "react-toastify": "^9.0.8",
+    "react-transliterate": "^1.1.9",
+    "react-visibility-sensor": "^5.1.1",
+    "redux": "^4.2.0",
+    "redux-thunk": "^2.4.1",
+    "sanitize-html": "^2.7.1",
+    "semantic-ui-react": "^2.1.3",
+    "styled-components": "^5.3.5",
+    "sweetalert": "^2.1.2",
+    "sweetalert2": "^11.4.37",
+    "sweetalert2-react-content": "^5.0.2",
+    "web-vitals": "^2.1.0",
+    "yup": "^0.32.11"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

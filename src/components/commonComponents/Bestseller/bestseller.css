@@ -1,0 +1,51 @@
+.bestSellerContainer {
+  width: 100%;
+  /* margin-top: 50px; */
+  padding: 25px 0;
+  background-color: #fff;
+}
+
+.bestSellerCategoryTitle {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 30px;
+  letter-spacing: 0.3px;
+  /* color: ; */
+  text-transform: uppercase;
+  margin-left: 9%;
+  color: rgb(21, 42, 81);
+}
+
+.bestSellerCarousel {
+  margin-top: 30px;
+}
+
+.bestSellerCarousel .bsLink {
+  all: unset;
+  cursor: pointer;
+}
+
+.bestseller_link {
+  color: rgb(21, 42, 81);
+  font-weight: 700;
+  text-decoration: none;
+  margin-left: 90vw;
+}
+.bestseller_link:hover {
+  font-weight: 500;
+  color: rgb(60, 77, 109);
+  text-decoration: underline;
+}
+.hHJTFD {
+  margin: 0 40px !important;
+}
+@media (max-width: 600px) {
+  .bestSellerCategoryTitle {
+    font-size: 0.9rem;
+    margin-left: 8vw;
+  }
+  .bestSellerCarousel .bsLink {
+    margin-top: 0px;
+  }
+}

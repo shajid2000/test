@@ -1,0 +1,90 @@
+.signinContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formContainer{
+    width: 500px;
+    height: 480px;
+    margin-top: 15px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.3);
+}
+
+.logoContainer{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+}
+
+.logoContainer .heading{
+    margin-top: 6px;
+}
+
+.form{
+    margin-top: 0px !important;
+    width: 60%;
+    margin-left: 20%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.form input{
+    width: 100%;
+    height: 40px;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+
+.form input:focus{
+    outline: #003459;
+}
+
+.form .submitBtn{
+    width: 50%;
+    outline: none;
+    border: none;
+    color: white;
+    background-color: #003459;
+    font-size: 20px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.form #errorBox{
+    height: 40px;
+    width: 100%;
+    color: red;
+    text-align: center;
+}
+
+.signInform-box{
+    height: 400px !important;
+}
+/* mobile view for signin  */
+
+
+@media (max-width: 550px) {
+    .signinContainer{
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .formContainer{
+        width: 100%;
+    }
+
+    .form{
+        width: 90%;
+        margin-left: 5%;
+    }
+}
+
+

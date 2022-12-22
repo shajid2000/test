@@ -1,0 +1,42 @@
+.quoteItem {
+  width: 100%;
+  margin-bottom: 20px;
+  height: 150px;
+  /* background-color: rgb(241, 241, 241); */
+  /* border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px; */
+}
+.quotation-box {
+  /* text-align: center; */
+  /* display: flex; */
+  /* height: 100%; */
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+.quotes-items {
+  display: grid;
+  grid-template-columns: 38% 15% 45%;
+  /* gap: 10px; */
+}
+.quote-head .td {
+  border-bottom: 1px solid #868a91 !important;
+}
+.quotes-items .td {
+  border-bottom: 1px solid #253d3420;
+  padding: 5px ;
+  display: flex;
+    align-items: center;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 18px;
+  color: #121212;
+}
+.quotes-items .date-p {
+  font-weight: 400;
+  font-size: 11px;
+}
+.quotation-btn-box {
+  border-bottom: none;
+}

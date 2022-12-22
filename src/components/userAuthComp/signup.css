@@ -1,0 +1,141 @@
+.signupContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-error {
+  font-size: 0.9rem;
+  color: #b22b27;
+  margin: 0px;
+  padding: 0;
+}
+
+.formContainer {
+  width: 500px;
+  height: 500px;
+  margin-top: 15px;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.3);
+  padding: 0rem 0rem 3rem 0rem;
+}
+
+.logoContainer {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 16px;
+}
+
+.logoContainer .heading {
+  margin-top: 6px;
+}
+
+.signupContainer .form {
+  margin-top: 0px !important;
+  width: 60%;
+  margin-left: 20%;
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.form input {
+  width: 300px;
+  height: 40px;
+  padding-left: 10px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+
+.form input:focus {
+  outline: #003459;
+}
+
+.form .submitBtn {
+  width: 50%;
+  outline: none;
+  border: none;
+  color: white;
+  background-color: #003459;
+  font-size: 20px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.form #errorBox {
+  height: 40px;
+  width: 100%;
+  color: rgb(208, 0, 0);
+  text-align: center;
+}
+
+.user-present {
+  color: #6a737a;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  align-content: center;
+  width: 300px;
+  margin: -4px auto 10px;
+}
+.user-present a {
+  color: #6a737a;
+}
+.user-present a:hover {
+  color: #363c41;
+}
+
+/* .or{
+    font-weight: 400;
+    size: 1.2rem;
+    color: #003459;
+} */
+.signInwithGoogle {
+  height: 50px;
+  width: 60%;
+  margin: auto;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.signUpline {
+  height: 2px;
+  width: 100%;
+  margin-top: 10px;
+  background-color: #6a737a98;
+}
+/* mobile view for signup  */
+.divider {
+  width: 300px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  margin: 2px auto 5px;
+  justify-content: space-between;
+}
+.divider-line {
+  height: 1px;
+  width: 42%;
+  background-color: #2929294a;
+}
+@media (max-width: 560px) {
+  .signupContainer {
+    width: 90%;
+    margin-left: 5%;
+  }
+
+  .formContainer {
+    width: 100%;
+  }
+
+  .signupContainer .form {
+    width: 90%;
+    margin-left: 5%;
+  }
+}

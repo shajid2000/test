@@ -1,0 +1,173 @@
+.Ehs-prints {
+  height: max-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 50px;
+
+  /* width: 90vh; */
+}
+
+.promiseTitle {
+  font-size: 2rem;
+  font-weight: bold;
+}
+.promiseContainer {
+  width: 95%;
+  /* height: 250px; */
+  /* border: 2px solid black; */
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* padding: 0 20px; */
+}
+
+.promiseContainer .block {
+  box-sizing: border-box;
+  width: 25%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 25px;
+  text-align: center;
+  background-color: #fff;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.3);
+}
+
+.bl-heading {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.promiseContainer .block p {
+  font-size: 0.9rem;
+}
+.logistics {
+  margin-top: 50px;
+  padding: 30px 0;
+  background-color: #fff;
+}
+.visitorContainer {
+  width: 70%;
+  margin-left: 15%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* margin-top: 50px; */
+}
+.visitor {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 30px;
+  text-align: center;
+  letter-spacing: 0.3px;
+  color: #003459;
+  /* width: 13%; */
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.visitorHead {
+  margin-top: 10px;
+  font-size: 25px;
+  line-height: 25px !important;
+}
+.dot {
+  height: 10px;
+  width: 10px;
+  background-color: #003459;
+  border-radius: 50%;
+  display: inline-block;
+  /* display: flex; */
+  /* align-items: center; */
+}
+.bestSellerHeading {
+  margin-top: 25px;
+  text-align: center;
+
+  font-style: italic;
+  /* font-style: normal; */
+  text-transform: capitalize;
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 30px;
+  letter-spacing: 0.3px;
+  /* color: #000; */
+  background-color: #fff;
+  padding-top: 30px;
+}
+/* STYLING FOR MOBILE VIEW  */
+
+@media (max-width: 600px) {
+  .dot {
+    height: 5px;
+    width: 5px;
+  }
+  .promiseContainer {
+    /* border:1px solid black; */
+    flex-wrap: wrap;
+    height: max-content;
+    /* gap: 25px; */
+    row-gap: 20px;
+    /* column-gap: 20px; */
+  }
+
+  .promiseContainer .block {
+    box-sizing: border-box;
+    width: 80%;
+    height: 210px;
+    /* -----Shahbaz----- */
+    width: 45%;
+    height: 240px;
+    text-align: center;
+    /* -----Shahbaz----- */
+    padding: 10px;
+  }
+
+  .bl-heading {
+    font-size: 0.8rem;
+    text-transform: uppercase;
+  }
+  .bl-text {
+    font-size: 0.75rem;
+
+    /* border:1px solid black; */
+    text-align: justify;
+  }
+  .visitorContainer {
+    width: 80vw;
+    /* border: 1px solid black; */
+
+    /* align-self: center; */
+    margin-left: 10vw;
+  }
+
+  .visitor {
+    font-size: 1.1rem;
+    line-height: 15px;
+  }
+
+  .visitorHead {
+    font-size: 0.8rem;
+  }
+
+  .promiseTitle {
+    font-size: 1.1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  .block img {
+    width: 40px;
+  }
+  .bestSellerHeading {
+    font-size: 1.1rem;
+    font-weight: 900;
+    text-transform: uppercase;
+  }
+}

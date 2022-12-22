@@ -1,0 +1,16 @@
+.home-container {
+  background-color: #f6f6f6;
+}
+
+.eWjCzc:hover:enabled,
+.eWjCzc:focus:enabled,
+.sc-bczRLJ:hover:enabled,
+.sc-bczRLJ:focus:enabled {
+  background-color: #003459 !important;
+}
+
+/* testing */
+* {
+  /* font-family: Inter; */
+  font-family: Roboto;
+}

@@ -1,0 +1,107 @@
+.overview {
+  height: 100%;
+  width: 100%;
+}
+
+.overview .overviewUp {
+  width: 100%;
+  height: 20%;
+}
+
+.overview .overviewDown {
+  width: 100%;
+  height: 70%;
+  margin-top: 5%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  overflow-y: scroll;
+}
+.overview .overviewDown a:hover {
+  background-color: rgba(160, 160, 160, 0.25);
+}
+.overviewUp .dbProfile {
+  width: 100%;
+  display: flex;
+  gap: 25px;
+  font-size: 0.7rem;
+  font-weight: 400;
+  letter-spacing: 0.3px;
+  /* margin-top: 2.5%;
+    margin-left: 2.5%; */
+}
+
+.overviewUp .dbProfile .dbProfileImg {
+  width: 70px;
+  height: 70px;
+}
+.overviewUp .dbProfile .dbProfileImg img {
+  width: 70px;
+  background-color: #fff;
+  height: 70px;
+}
+
+.overviewUp .dbProfile .dbProfileDetails {
+  height: 70px;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.dbProfile .dbProfileName span {
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+.dbProfile .editProfile-btn {
+  margin-left: 2.5%;
+  font-size: 0.7rem;
+  background-color: white;
+  color: rgb(160, 160, 160);
+  width: max-content;
+  border: 1px solid rgb(160, 160, 160);
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.overview .overviewDown a {
+  width: 200px;
+  height: 40%;
+  text-decoration: none;
+  border: 1.3px solid rgb(137, 137, 137);
+  border-radius: 7px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+  color: rgb(83, 83, 83);
+  cursor: pointer;
+  margin-bottom: 5%;
+}
+
+.overviewDown i {
+  font-size: 1.2rem;
+}
+
+.overviewDown img {
+  height: 1.2rem;
+}
+
+.overview .overviewDown div span {
+  font-size: 0.9rem;
+}
+@media screen and (max-width: 901px) {
+  .overview .overviewDown div {
+    width: 150px;
+  }
+}
+@media screen and (max-width: 550px) {
+  .overview .overviewDown div {
+    width: 100px;
+    height: 100px;
+    /* background-color: red; */
+  }
+}

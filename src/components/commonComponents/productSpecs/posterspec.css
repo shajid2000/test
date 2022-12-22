@@ -1,0 +1,322 @@
+.productSpec {
+  width: 95%;
+  /* height: 90vh; */
+  margin-left: 2.5%;
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.productSpec .productImg {
+  width: 30%;
+  height: 90%;
+}
+
+.productImg .proImg {
+  width: 100%;
+  height: 95%;
+}
+
+.productImg .authorDetails {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  margin-top: 10px;
+  align-items: center;
+}
+
+.productImg .profileIcon {
+  height: 40px;
+}
+
+.productImg .authorName {
+  align-self: center;
+  margin-left: 18px;
+  font-size: 1.2rem;
+}
+
+.productSpec .productConfig {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  gap: 30px;
+}
+
+.productConfig .configuration {
+  align-self: flex-start;
+}
+
+.configuration .configOptions {
+  margin-top: 10px;
+  display: flex;
+}
+
+.configOptions .configOption {
+  width: 100px;
+  height: 130px;
+  margin-left: 10px;
+  border-radius: 7px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  cursor: pointer;
+  transition: border 0.1s ease;
+}
+
+.configBlue {
+  border: 2px solid #003459;
+}
+
+.configGray {
+  border: 2px solid rgb(207, 207, 207);
+}
+
+.color .configOption {
+  width: 75px;
+  height: 110px;
+}
+
+.color .configOption .configColor {
+  width: 90%;
+  height: 58%;
+  border-radius: 7px;
+}
+
+.color .red {
+  background-color: red;
+}
+
+.color .green {
+  background-color: green;
+}
+
+.color .blue {
+  background-color: rgb(0, 183, 255);
+}
+
+.color .yellow {
+  background-color: yellow;
+}
+
+.configOptions .configData {
+  text-align: center;
+  font-size: 0.7rem;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+/* .portrait{
+    transform: rotate(90deg);
+} */
+
+.productConfig .productQty {
+  width: 100px;
+  border: 1px solid #aeaeae;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-weight: 500;
+  font-size: 1rem;
+  align-self: flex-start;
+}
+
+.productQty .fa-minus {
+  cursor: pointer;
+  padding: 5px 10px;
+}
+
+.productQty .qtyVal {
+  border-left: 1px solid #636363;
+  border-right: 1px solid #636363;
+  width: 33%;
+  text-align: center;
+  padding: 5px 10px;
+}
+
+.productQty .fa-plus {
+  cursor: pointer;
+  padding: 5px 10px;
+}
+
+.productConfig .productButtons {
+  /* height: 100px; */
+  width: 90%;
+  align-self: flex-start;
+}
+
+.productButtons .addToCart-btn {
+  padding: 12px 0px 12px 0px;
+  background-color: white;
+  border: 2px solid #003459;
+  border-radius: 5px;
+  font-size: 1rem;
+  letter-spacing: 0.8px;
+  cursor: pointer;
+}
+
+.productButtons .buyNow-btn {
+  padding: 12px 0px 12px 0px;
+  background-color: #003459;
+  color: white;
+  margin-top: 10px;
+  border-radius: 5px;
+  font-size: 1rem;
+  letter-spacing: 0.8px;
+  cursor: pointer;
+}
+
+.productSpec .productDetails {
+  width: 30%;
+  height: 75%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.productDetails .productName {
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.productDetails .productRatings {
+  margin-top: 25px;
+}
+
+.productDetails span {
+  margin-left: 10px;
+}
+
+.productDetails .productPrice {
+  margin-top: 15px;
+}
+
+.productDetails .productPrice .proDiscountPrice {
+  font-size: 1.5rem;
+  margin-left: 0px;
+  font-weight: 700;
+  color: #003459;
+}
+
+.productDetails .proDetailsTitle {
+  font-size: 1rem;
+  font-weight: 500;
+  margin-top: 30px;
+}
+
+.productDetails .productPrice .proRealPrice {
+  color: #7b7b7b;
+  font-weight: 700;
+  text-decoration: line-through;
+}
+
+.productDetails .productPrice .proDiscount {
+  color: #f2994a;
+  font-size: 0.8rem;
+}
+
+.footerBanner {
+  width: 95%;
+  margin-left: 2.5%;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.similarPosters {
+  margin-top: 30px;
+}
+
+.bsLink {
+  text-decoration: none;
+  color: black;
+}
+
+.bsLink:hover {
+  color: black;
+}
+
+.rpTitle {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 30px;
+  letter-spacing: 0.3px;
+  color: #003459;
+  text-transform: uppercase;
+  margin-left: 8%;
+  margin-top: 50px;
+}
+
+.materialPopup {
+  width: 90%;
+  height: 90%;
+  display: flex;
+  align-items: center;
+  /* position: relative; */
+}
+
+.materialPopup .closePopup {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  color: #636363;
+  background-color: #ededed;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 1.2rem;
+}
+
+.materialPopup img {
+  height: 50%;
+}
+
+.materialPopup .popupDetails {
+  height: 50%;
+  margin-left: 6%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.popupDetails .popupH {
+  font-weight: 600;
+  font-size: 1.1;
+}
+
+.popup .popupT {
+  font-size: 0.8rem;
+  color: #7b7b7b;
+}
+
+/* .materialPopup span{
+    font-size: 1.8rem;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    color: #003459;
+} */
+
+.materialPopup button {
+  width: max-content;
+  font-size: 1.1rem;
+  padding: 8px 12px;
+  border: 2px solid #003459;
+  border-radius: 5px;
+  background-color: white;
+  color: #003459;
+  outline: none;
+  letter-spacing: 0.5px;
+  word-spacing: 5px;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.materialPopup button:hover {
+  color: white;
+  background-color: #003459;
+}

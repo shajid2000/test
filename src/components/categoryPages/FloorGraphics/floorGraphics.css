@@ -1,0 +1,50 @@
+.floorGraphicsBody{
+    overflow-x: hidden;
+}
+
+.floorGraphicsTopContainer {
+  width: 80%;
+  margin-left: 10%;
+  height: 15vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+}
+.floorHeading {
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: #003459;
+}
+.floorBanner {
+  width: 80%;
+}
+.floorBanner img {
+  object-fit: contain;
+  width: 100%;
+}
+
+/* STYLING FOR MOBILE VIEW  */
+
+@media (max-width: 600px) {
+    .floorGraphicsTopContainer {
+      flex-direction: column;
+      width: 90%;
+      margin-left: 5%;
+    }
+  
+    .floorGraphicsBody .floorBanner {
+      width: 90%;
+      margin-left: 5%;
+    }
+  
+    .floorGraphicsBody .floorBanner img {
+      width: 100%;
+    }
+  
+    .floorGraphicsBody .floorHeading {
+      font-size: 2rem;
+    }
+  
+  }
+  

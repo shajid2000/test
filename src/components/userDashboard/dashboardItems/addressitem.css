@@ -1,0 +1,56 @@
+.addressItem{
+    width: 99%;
+    height: 160px;
+    border-radius: 8px;
+    border: 1.5px solid gainsboro;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.addressItem .adName span{
+    color: rgb(55, 165, 208);
+    border: 1.5px solid rgb(55, 165, 208);
+    padding: 1px 5px 1px 5px;
+    font-size: 0.7rem;
+    letter-spacing: 0.3px;
+    border-radius: 3px;
+    margin-left: 8px;
+}
+
+.addressItem .adName, .addressDetails, .addressEdit-btn{
+    margin-left: 3%;
+}
+
+
+.addressItem .addressDetails{
+    font-size: 0.9rem;
+}
+
+.addressItem .addressDetails div{
+    margin-bottom: 1.5px;
+}
+
+.addressItem .addressEdit-btn{
+    width: max-content;
+    padding: 3px 10px 3px 10px;
+    border-radius: 5px;
+    outline: none;
+    background-color: white;
+    border: 1.5px solid gainsboro;
+    letter-spacing: 0.3px;
+    cursor: pointer;
+}
+
+.addressEdit-btn span{
+    margin-left: 5px;
+}
+
+.addressItem .removeAddress{
+    position: absolute;
+    top: 5px;
+    right: 8px;
+    cursor: pointer;
+}

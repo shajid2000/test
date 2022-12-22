@@ -1,0 +1,41 @@
+.crd {
+  display: flex;
+  flex-direction: column;
+  height: 20rem;
+  width: 15rem;
+  border-radius: 15px;
+  box-shadow: 1px 2px 0px 0px rgba(0, 0, 0, 0.21);
+}
+.crd img {
+  height: 70%;
+  border-radius: 15px;
+  width: 15rem;
+}
+.crd:hover {
+  display: block;
+}
+.propertiescrd {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+  /* identical to box height */
+
+  color: #003459;
+  height: 13%;
+}
+.itemname {
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16.5px;
+  line-height: 22px;
+  height: 15%;
+
+  color: #000000;
+}

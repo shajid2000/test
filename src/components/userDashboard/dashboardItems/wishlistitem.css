@@ -1,0 +1,80 @@
+.wishListItem {
+  width: 95%;
+  height: 150px;
+  box-shadow: 2px 2px 5px 1px #a3a3a3;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin: 5px auto;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.wishListItem img {
+  height: 92%;
+  margin-left: 1%;
+}
+.mycross {
+  margin-left: 20px;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
+.wishListItem .wishListContent {
+  height: 92%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.wishListContent .wiName {
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.wishListContent .wiCurrentPrice {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #003459;
+}
+
+.wishListContent .wiRealPrice {
+  margin-left: 4%;
+  font-weight: 700;
+  text-decoration: line-through;
+  color: #767676;
+}
+
+.wishListContent .wiDiscount {
+  margin-left: 4%;
+  font-weight: 500;
+  color: #f2994a;
+}
+
+.wishListContent .wiMaterial,
+.wiDimension {
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.wiMaterial span {
+  font-weight: 400;
+  font-size: 0.9rem;
+}
+
+.wiDimension span {
+  font-weight: 400;
+  font-size: 0.9rem;
+}
+
+.wishListItem img:hover .demou {
+  display: inline-block;
+}
+
+.demou {
+  width: 100px;
+  height: 80px;
+  background-color: #a3a3a3;
+  /* display: none; */
+}
