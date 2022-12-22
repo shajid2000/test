@@ -39,8 +39,13 @@ export const addProduct = (data) => async dispatch => {
                     "quantity": data.quantity,
                     "removeCart": data.removeCart ? data.removeCart : false
                 }
-                data._id?cartObject.poster_obj_id=data._id:""
-                data.pageId?cartObject.pageId=data.pageId:""
+                if(data._id){
+
+                    data._id?cartObject.poster_obj_id=data._id:""
+                }
+                if(data.pageId){
+                    data.pageId?cartObject.pageId=data.pageId:""
+                }
 
                 //console.log(data,"in cartobject") 
                 const response = await fetch(`${API}auth/update_user_cart`, {
