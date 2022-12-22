@@ -41,10 +41,10 @@ export const addProduct = (data) => async dispatch => {
                 }
                 if(data._id){
 
-                    data._id?cartObject.poster_obj_id=data._id:""
+                    cartObject.poster_obj_id=data._id
                 }
                 if(data.pageId){
-                    data.pageId?cartObject.pageId=data.pageId:""
+                cartObject.pageId=data.pageId
                 }
 
                 //console.log(data,"in cartobject") 
